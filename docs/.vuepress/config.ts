@@ -14,11 +14,11 @@ export default defineUserConfig({
         children: [
           {
             text: "HTML",
-            link: "/fe/html",
+            link: "/fe/html/",
           },
           {
             text: "CSS",
-            link: "/fe/css",
+            link: "/fe/css/",
           },
           {
             text: "JavaScript",
@@ -26,11 +26,11 @@ export default defineUserConfig({
           },
           {
             text: "TypeScript",
-            link: "/fe/ts",
+            link: "/fe/ts/",
           },
           {
-            text: "框架",
-            link: "/fe/frame",
+            text: "框架/库",
+            link: "/fe/frame/",
           },
         ],
       },
@@ -55,6 +55,14 @@ export default defineUserConfig({
         "/fe/js/事件",
         "/fe/js/Canvas",
         "/fe/js/WebGL",
+        "/fe/js/FAQ",
+      ],
+      "/fe/css/": ["/fe/css/重置样式表"],
+      "/fe/frame/": [
+        {
+          text: "Vue3",
+          children: ["/fe/frame/Vue3/源码", "/fe/frame/Vue3/FAQ"],
+        },
       ],
     },
   }),
