@@ -124,3 +124,63 @@ const myDirective = {
   unmounted() {},
 };
 ```
+
+## 生命周期
+
+**选项式（82211）**  
+选项式生命周期共有 14 个钩子，8 个基本，2 个缓存，2 个 Dev, 1 个错误,1 个 SSR  
+具体详情查看[生命周期](https://staging-cn.vuejs.org/api/options-lifecycle.html)
+
+1. beforeCreate
+2. created
+3. beforeMount
+4. mounted
+5. beforeUpdate
+6. updated
+7. beforeUnmount
+8. unmounted
+9. errorCaptured
+10. activated
+11. deactivated
+12. serverPrefetch(SSR only)
+13. renderTracked(Dev only)
+14. renderTriggered(Dev only)
+
+**组合式（62211）**  
+选项式生命周期共有 12 个钩子，6 个基本，2 个缓存，2 个 Dev, 1 个错误,1 个 SSR  
+具体详情查看[生命周期](https://staging-cn.vuejs.org/api/composition-api-lifecycle.html)
+
+1. onBeforeMount
+2. onMounted
+3. onBeforeUpdate
+4. onUpdated
+5. onBeforeUnmount
+6. onUnmounted
+7. onErrorCaptured
+8. onActivated
+9. onDeactivated
+10. onServerPrefetch(SSR only)
+11. onRenderTracked(Dev only)
+12. onEenderTriggered(Dev only)
+
+## 组件传值
+
+**父组件传子组件**
+
+父组件在子组件上绑定参数，子组件通过`defineProps`进行声明接收
+
+**子组件传父组件**
+
+子组件通过`defineEmits`定义事件名称，父组件通过在子组件上绑定指定的事件进行接收
+
+**隔代组件**
+
+1. 通过依赖注入的方式，祖先组件通过`provide`提供值，后代组件通过`inject`注入值
+2. 通过集中状态管理库`pinia`、`vuex`等
+3. 基于发布订阅的事件或者库
+
+## Object.defineProperty 的缺点
+1. 不能监听对象属性的新增和删除
+2. 在Vue2初始化阶段递归执行`Object.defineProperty`会带来性能负担  
+
+**在Vue3中使用`Proxy`重写了响应式部分，并独立维护和发布整个reactivity库** 

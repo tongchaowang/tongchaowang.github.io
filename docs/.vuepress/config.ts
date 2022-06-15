@@ -2,7 +2,7 @@ import { defineUserConfig, defaultTheme } from "vuepress";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "超凶的个人博客",
+  title: "王同超的个人博客",
   description: "用于记录自己的日常学习和总结",
   head: [["link", { rel: "icon", href: "/images/favicon.png" }]],
   theme: defaultTheme({
