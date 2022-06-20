@@ -70,3 +70,8 @@ const el2 = el.cloneNode(true)
 console.log(el2.value) // 1
 console.log(el2._value) // undefined
 ```
+
+## Object.create(null)和{}区别
+通过`Object.create(null)`创建的对象是个"纯"对象，没有继承`Object`的原型  
+通过`{}`创建的对象，默认会继承`Object`的原型  
+在`vue`源码中，大量使用了`Object.create(null)`创建对象
