@@ -55,6 +55,7 @@ export default defineUserConfig({
         "/fe/js/事件",
         "/fe/js/Canvas",
         "/fe/js/WebGL",
+        "/fe/js/手写",
         "/fe/js/FAQ",
       ],
       "/fe/css/": ["/fe/css/重置样式表"],
