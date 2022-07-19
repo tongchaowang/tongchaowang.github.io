@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as _,a as c}from"./app.056b7d0c.js";const o={},s=c("p",null,"WebGL",-1),a=[s];function n(r,l){return t(),_("div",null,a)}var f=e(o,[["render",n],["__file","WebGL.html.vue"]]);export{f as default};

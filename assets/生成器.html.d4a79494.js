@@ -1,0 +1,1 @@
+import{_ as e,o as _,c as t,a as c}from"./app.056b7d0c.js";const o={},s=c("p",null,"\u751F\u6210\u5668",-1),a=[s];function n(r,l){return _(),t("div",null,a)}var f=e(o,[["render",n],["__file","\u751F\u6210\u5668.html.vue"]]);export{f as default};

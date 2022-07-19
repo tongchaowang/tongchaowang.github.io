@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as s,a as t}from"./app.056b7d0c.js";const n={},_=t("p",null,"Canvas",-1),c=[_];function o(r,l){return a(),s("div",null,c)}var f=e(n,[["render",o],["__file","Canvas.html.vue"]]);export{f as default};

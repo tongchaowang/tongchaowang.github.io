@@ -1,0 +1,1 @@
+const e={key:"v-01c324e2",path:"/fe/js/WebGL.html",title:"WebGL",lang:"zh-CN",frontmatter:{title:"WebGL"},excerpt:"",headers:[],git:{updatedTime:1653816291e3,contributors:[{name:"\u738B\u540C\u8D85",email:"wangtongchao@kaikeba.com",commits:1}]},filePathRelative:"fe/js/WebGL.md"};export{e as data};

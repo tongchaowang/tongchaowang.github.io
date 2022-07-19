@@ -1,0 +1,1 @@
+const e={key:"v-17e55aea",path:"/fe/js/%E4%BD%9C%E7%94%A8%E5%9F%9F.html",title:"\u4F5C\u7528\u57DF",lang:"zh-CN",frontmatter:{title:"\u4F5C\u7528\u57DF"},excerpt:"",headers:[],git:{updatedTime:1653816291e3,contributors:[{name:"\u738B\u540C\u8D85",email:"wangtongchao@kaikeba.com",commits:1}]},filePathRelative:"fe/js/\u4F5C\u7528\u57DF.md"};export{e as data};

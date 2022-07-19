@@ -1,0 +1,1 @@
+const t={key:"v-73134c6a",path:"/fe/js/%E8%BF%AD%E4%BB%A3%E5%99%A8.html",title:"\u8FED\u4EE3\u5668",lang:"zh-CN",frontmatter:{title:"\u8FED\u4EE3\u5668"},excerpt:"",headers:[],git:{updatedTime:1653816291e3,contributors:[{name:"\u738B\u540C\u8D85",email:"wangtongchao@kaikeba.com",commits:1}]},filePathRelative:"fe/js/\u8FED\u4EE3\u5668.md"};export{t as data};

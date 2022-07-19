@@ -1,0 +1,1 @@
+const a={key:"v-40a28c12",path:"/fe/js/Canvas.html",title:"Canvas",lang:"zh-CN",frontmatter:{title:"Canvas"},excerpt:"",headers:[],git:{updatedTime:1653816291e3,contributors:[{name:"\u738B\u540C\u8D85",email:"wangtongchao@kaikeba.com",commits:1}]},filePathRelative:"fe/js/Canvas.md"};export{a as data};
